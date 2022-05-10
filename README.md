@@ -33,6 +33,13 @@ See [https://creativecommons.org/licenses/by/3.0/][ccl] for more details.
 The following Google style guides live outside of this project:
 [Go Code Review Comments][go] and [Effective Dart][dart].
 
+## Customized versions
+
+Edited from original: see `Makefile` in project root.
+It contains a script to make the following changes to original:
+
+- Use black instead of YAPF
+- Change max line length to 100
 
 ## Contributing
 
